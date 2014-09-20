@@ -1,0 +1,159 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "10bd70bc14db83c28a211e6df414eca1",
+    "packages": [
+        {
+            "name": "qafoogalaxy/BashEnvironment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QafooGalaxy/BashEnvironment.git",
+                "reference": "8d00d7e783cebaf2da36d6c2162c7552ec2c5251"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QafooGalaxy/BashEnvironment/zipball/8d00d7e783cebaf2da36d6c2162c7552ec2c5251",
+                "reference": "8d00d7e783cebaf2da36d6c2162c7552ec2c5251",
+                "shasum": ""
+            },
+            "require": {
+                "qafoogalaxy/installer": "dev-master"
+            },
+            "type": "ansible-role",
+            "support": {
+                "source": "https://github.com/QafooGalaxy/BashEnvironment/tree/master",
+                "issues": "https://github.com/QafooGalaxy/BashEnvironment/issues"
+            },
+            "time": "2014-09-20 14:38:54"
+        },
+        {
+            "name": "qafoogalaxy/Elasticsearch",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QafooGalaxy/Elasticsearch.git",
+                "reference": "0d08220d7f5950971c13043eab2f22aa77a5b679"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QafooGalaxy/Elasticsearch/zipball/0d08220d7f5950971c13043eab2f22aa77a5b679",
+                "reference": "0d08220d7f5950971c13043eab2f22aa77a5b679",
+                "shasum": ""
+            },
+            "require": {
+                "qafoogalaxy/installer": "dev-master",
+                "qafoogalaxy/java": "dev-master"
+            },
+            "type": "ansible-role",
+            "support": {
+                "source": "https://github.com/QafooGalaxy/Elasticsearch/tree/master",
+                "issues": "https://github.com/QafooGalaxy/Elasticsearch/issues"
+            },
+            "time": "2014-09-20 14:02:01"
+        },
+        {
+            "name": "qafoogalaxy/Java",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QafooGalaxy/Java.git",
+                "reference": "852151a90711b8088a2c3ced250497bcc01f90c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QafooGalaxy/Java/zipball/852151a90711b8088a2c3ced250497bcc01f90c7",
+                "reference": "852151a90711b8088a2c3ced250497bcc01f90c7",
+                "shasum": ""
+            },
+            "require": {
+                "qafoogalaxy/installer": "dev-master"
+            },
+            "type": "ansible-role",
+            "support": {
+                "source": "https://github.com/QafooGalaxy/Java/tree/master",
+                "issues": "https://github.com/QafooGalaxy/Java/issues"
+            },
+            "time": "2014-09-20 14:02:15"
+        },
+        {
+            "name": "qafoogalaxy/installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QafooGalaxy/installer.git",
+                "reference": "966e83aa717cee710bd3c06f2191dccfc67f8c6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QafooGalaxy/installer/zipball/966e83aa717cee710bd3c06f2191dccfc67f8c6e",
+                "reference": "966e83aa717cee710bd3c06f2191dccfc67f8c6e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "QafooLabs\\Composer\\AnsibleInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "QafooLabs\\Composer\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                },
+                {
+                    "name": "Jakob Westhoff",
+                    "email": "jakob@qafoo.com",
+                    "homepage": "https://github.com/jakobwesthoff"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "benjamin@qafoo.com",
+                    "homepage": "https://github.com/beberlei"
+                }
+            ],
+            "description": "Installer for ansible roles",
+            "keywords": [
+                "ansible",
+                "installer"
+            ],
+            "support": {
+                "source": "https://github.com/QafooGalaxy/installer/tree/master",
+                "issues": "https://github.com/QafooGalaxy/installer/issues"
+            },
+            "time": "2014-08-24 17:44:41"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "qafoogalaxy/bashenvironment": 20,
+        "qafoogalaxy/elasticsearch": 20
+    },
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
