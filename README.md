@@ -22,17 +22,17 @@ After the VM is booted the **Elasticsearch** service can be reached at port
 
 The following steps are needed in order to utilize this Playground:
 
-1. Checkout the git repository
+- Checkout the git repository
 ```
 $ git clone git@github.com:Playgrounds/Elasticsearch.git
 ```
 
-2. Initialize all needed ansible roles using [Composer](http://getcomposer.org)
+- Initialize all needed ansible roles using [Composer](http://getcomposer.org)
 ```
 $ cd Automation && composer install
 ```
 
-3. Make vagrant build the VM for you
+- Make vagrant build the VM for you
 ```
 $ vagrant up
 ```
